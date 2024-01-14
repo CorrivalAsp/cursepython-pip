@@ -12,7 +12,7 @@ def readdata(path):
   return data
 
 if __name__ == '__main__':
-  data = readdata('./app/data.csv')
+  data = readdata('data.csv')
 
   print(data[1])
       
